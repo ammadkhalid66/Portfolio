@@ -1,0 +1,58 @@
+.Anime{
+    position: absolute;
+    left: -55%;
+}
+.imagehover:hover{
+    opacity: 100;
+}
+.imagehover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.imagehover2:hover{
+    opacity: 0.5;
+    filter: blur(15px);
+}
+.content:hover{
+    backdrop-filter: blur(3px);
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: black;
+}
+.content{    
+    backdrop-filter: blur(1px);
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    left: 0;
+    background-color: black;
+}
+.btn2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 1.5rem;
+    filter: drop-shadow(15px 15px 10px black);
+}
+.Anime2 {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

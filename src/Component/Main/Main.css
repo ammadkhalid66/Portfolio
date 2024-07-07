@@ -1,0 +1,14 @@
+.gradient{
+    background-image: radial-gradient(blue,rgb(24, 24, 58));
+}
+.navrow{
+    backdrop-filter: blur(3px);
+    background-color: rgba(17, 15, 15, 0.363);
+}
+
+.navrow .active {
+    font-weight: bold;
+    color: #ffcc00; 
+    border-bottom:1px solid white ;
+    transition: border-bottom ease-in 0.5s, font-weight ease-in 0.5s;
+}
